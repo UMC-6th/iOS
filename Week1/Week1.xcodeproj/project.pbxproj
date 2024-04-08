@@ -15,6 +15,7 @@
 		E3DF3F672BC3E7AD00806704 /* Week1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF3F662BC3E7AD00806704 /* Week1Tests.swift */; };
 		E3DF3F712BC3E7AD00806704 /* Week1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF3F702BC3E7AD00806704 /* Week1UITests.swift */; };
 		E3DF3F732BC3E7AD00806704 /* Week1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF3F722BC3E7AD00806704 /* Week1UITestsLaunchTests.swift */; };
+		E3DF3F802BC3EB7800806704 /* customTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF3F7F2BC3EB7800806704 /* customTapBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3DF3F6C2BC3E7AD00806704 /* Week1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DF3F702BC3E7AD00806704 /* Week1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1UITests.swift; sourceTree = "<group>"; };
 		E3DF3F722BC3E7AD00806704 /* Week1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3DF3F7F2BC3EB7800806704 /* customTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTapBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E3DF3F582BC3E7AD00806704 /* Assets.xcassets */,
 				E3DF3F5A2BC3E7AD00806704 /* LaunchScreen.storyboard */,
 				E3DF3F5D2BC3E7AD00806704 /* Info.plist */,
+				E3DF3F7F2BC3EB7800806704 /* customTapBarController.swift */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DF3F802BC3EB7800806704 /* customTapBarController.swift in Sources */,
 				E3DF3F542BC3E7AC00806704 /* ViewController.swift in Sources */,
 				E3DF3F502BC3E7AC00806704 /* AppDelegate.swift in Sources */,
 				E3DF3F522BC3E7AC00806704 /* SceneDelegate.swift in Sources */,
