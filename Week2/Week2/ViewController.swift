@@ -180,7 +180,7 @@ class ViewController: UIViewController {
         topWhiteView.bottomAnchor.constraint(equalTo: locationLabel.bottomAnchor, constant: 15).isActive = true
         
         // 위치 라벨
-        locationLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 5).isActive = true
+        locationLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
         locationLabel.leadingAnchor.constraint(equalTo: topWhiteView.leadingAnchor, constant: 15).isActive = true
         
         // 위치 라벨 옆 화살표 버튼
@@ -287,8 +287,8 @@ extension ViewController: UITableViewDataSource {
             cellImageView.topAnchor.constraint(equalTo: cell.contentView.topAnchor, constant: 15),
             cellImageView.leadingAnchor.constraint(equalTo: cell.contentView.leadingAnchor, constant: 15),
             cellImageView.bottomAnchor.constraint(equalTo: cell.contentView.bottomAnchor, constant: -15),
-            cellImageView.heightAnchor.constraint(equalToConstant: 100),
-            cellImageView.widthAnchor.constraint(equalToConstant: 100)
+            cellImageView.widthAnchor.constraint(equalToConstant: 100),
+            cellImageView.heightAnchor.constraint(equalToConstant: 100)
         ])
         
         // 제목
@@ -414,7 +414,7 @@ extension ViewController: UITableViewDataSource {
             heartImageView.heightAnchor.constraint(equalToConstant: 13),
             heartImageView.widthAnchor.constraint(equalToConstant: 13)
         ])
-        
+                
         return cell
 
     }
