@@ -139,6 +139,8 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
+        tableView.rowHeight = 130
+        
         view.backgroundColor = .red
         
         addSubViews()
@@ -285,10 +287,11 @@ extension ViewController: UITableViewDataSource {
         
         NSLayoutConstraint.activate([
             cellImageView.topAnchor.constraint(equalTo: cell.contentView.topAnchor, constant: 15),
+//            cellImageView.bottomAnchor.constraint(equalTo: cell.contentView.bottomAnchor, constant: -15),
+            cellImageView.centerYAnchor.constraint(equalTo: cell.contentView.centerYAnchor),
             cellImageView.leadingAnchor.constraint(equalTo: cell.contentView.leadingAnchor, constant: 15),
-            cellImageView.bottomAnchor.constraint(equalTo: cell.contentView.bottomAnchor, constant: -15),
-            cellImageView.widthAnchor.constraint(equalToConstant: 100),
-            cellImageView.heightAnchor.constraint(equalToConstant: 100)
+            cellImageView.widthAnchor.constraint(equalToConstant: 100)
+//            cellImageView.heightAnchor.constraint(equalToConstant: 100)
         ])
         
         // 제목
