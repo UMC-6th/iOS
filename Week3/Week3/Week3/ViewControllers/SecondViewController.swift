@@ -8,22 +8,34 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    // MARK: - Properties
+    var price: Int? = nil
+    
+    private let contentView = SecondView()
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - LifeCycle
+    override func loadView() {
+        view = contentView
+        
     }
-    */
-
+    
+    // MARK: - ViewDidLodad
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        prepare()
+        setupNaviBar()
+    }
+    
+    private func prepare() {
+        guard let price = self.price else { return }
+        contentView.lastLabel.text = "\(price)원"
+    }
+    
+    private func setupNaviBar() {
+        title = "장바구니"
+    }
+    
+    
 }
