@@ -24,8 +24,9 @@ class RegisterController: UIViewController {
         // 중간에 링크
         let attributedString = NSMutableAttributedString(string: "By creating an account, you agree to our Terms & Conditions and you acknowledge that you have read our Privacy Policy")
         
+        
         attributedString.addAttribute(.link,
-                                      value: "terms://termsAndConditions", // 찐 주소 아님
+                                      value: "terms://termsAndConditions", // 찐 주소 아님 스킴으로 꼼수 부리기
                                       range: (attributedString.string as NSString).range(of: "Terms & Conditions"))
         
         attributedString.addAttribute(.link,
