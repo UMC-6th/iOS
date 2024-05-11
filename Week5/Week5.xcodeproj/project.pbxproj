@@ -29,6 +29,9 @@
 		E369BEB42BEBAD2B00D4B66B /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = E369BEB32BEBAD2B00D4B66B /* KakaoSDKTemplate */; };
 		E369BEB62BEBAD2B00D4B66B /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = E369BEB52BEBAD2B00D4B66B /* KakaoSDKUser */; };
 		E3CFEAD52BEFA51600A15081 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CFEAD42BEFA51600A15081 /* SecondViewController.swift */; };
+		E3CFEADB2BEFAFE800A15081 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CFEADA2BEFAFE800A15081 /* Model.swift */; };
+		E3CFEADD2BEFB06200A15081 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CFEADC2BEFB06200A15081 /* WeatherService.swift */; };
+		E3CFEADF2BEFB1B200A15081 /* KeyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3CFEADE2BEFB1B200A15081 /* KeyList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		E369BE9B2BEBA3B800D4B66B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		E369BE9C2BEBA79B00D4B66B /* KakaoAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthViewModel.swift; sourceTree = "<group>"; };
 		E3CFEAD42BEFA51600A15081 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E3CFEADA2BEFAFE800A15081 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E3CFEADC2BEFB06200A15081 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		E3CFEADE2BEFB1B200A15081 /* KeyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KeyList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +137,13 @@
 				E369BE6C2BEB9E9C00D4B66B /* SceneDelegate.swift */,
 				E369BE6E2BEB9E9C00D4B66B /* ViewController.swift */,
 				E3CFEAD42BEFA51600A15081 /* SecondViewController.swift */,
+				E3CFEADC2BEFB06200A15081 /* WeatherService.swift */,
 				E369BE9C2BEBA79B00D4B66B /* KakaoAuthViewModel.swift */,
 				E369BE732BEB9E9D00D4B66B /* Assets.xcassets */,
 				E369BE752BEB9E9D00D4B66B /* LaunchScreen.storyboard */,
+				E3CFEADE2BEFB1B200A15081 /* KeyList.plist */,
 				E369BE782BEB9E9D00D4B66B /* Info.plist */,
+				E3CFEADA2BEFAFE800A15081 /* Model.swift */,
 			);
 			path = Week5;
 			sourceTree = "<group>";
@@ -277,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CFEADF2BEFB1B200A15081 /* KeyList.plist in Resources */,
 				E369BE772BEB9E9D00D4B66B /* LaunchScreen.storyboard in Resources */,
 				E369BE742BEB9E9D00D4B66B /* Assets.xcassets in Resources */,
 			);
@@ -306,8 +316,10 @@
 				E369BE9D2BEBA79B00D4B66B /* KakaoAuthViewModel.swift in Sources */,
 				E369BE6F2BEB9E9C00D4B66B /* ViewController.swift in Sources */,
 				E369BE6B2BEB9E9C00D4B66B /* AppDelegate.swift in Sources */,
+				E3CFEADB2BEFAFE800A15081 /* Model.swift in Sources */,
 				E3CFEAD52BEFA51600A15081 /* SecondViewController.swift in Sources */,
 				E369BE6D2BEB9E9C00D4B66B /* SceneDelegate.swift in Sources */,
+				E3CFEADD2BEFB06200A15081 /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
