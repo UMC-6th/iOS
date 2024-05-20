@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="UMC_9th_HW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sm1-5S-AqU">
+                                <rect key="frame" x="0.0" y="79" width="393" height="151"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="현 위치" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnR-Rp-YgM">
+                                        <rect key="frame" x="30" y="27" width="49" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="latitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-OS-Xr3">
+                                        <rect key="frame" x="242" y="27" width="57" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="longtitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSQ-zY-zZ0">
+                                        <rect key="frame" x="242" y="79" width="77" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="r5z-JM-PzM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edY-bT-ojf">
+                                <rect key="frame" x="0.0" y="250" width="393" height="151"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="현재 온도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5D-w1-tlI">
+                                        <rect key="frame" x="31" y="24" width="64" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최고온도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLR-Di-puY">
+                                        <rect key="frame" x="257" y="24" width="59" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="최저온도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbV-AY-GhV">
+                                        <rect key="frame" x="257" y="88" width="59" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="8bP-pG-TQJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rg-LO-X99">
+                                <rect key="frame" x="0.0" y="421" width="393" height="151"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="qmC-lp-awy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VrL-w8-Nc0">
+                                <rect key="frame" x="0.0" y="592" width="393" height="226"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3rg-LO-X99" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4pC-gr-E1L"/>
+                            <constraint firstItem="edY-bT-ojf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6eB-IM-mNn"/>
+                            <constraint firstItem="Sm1-5S-AqU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AcM-0E-iOp"/>
+                            <constraint firstItem="Sm1-5S-AqU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GT9-i5-7or"/>
+                            <constraint firstItem="3rg-LO-X99" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IB3-Eq-cHX"/>
+                            <constraint firstItem="VrL-w8-Nc0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R75-H8-NLK"/>
+                            <constraint firstItem="edY-bT-ojf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SzX-5L-G80"/>
+                            <constraint firstItem="edY-bT-ojf" firstAttribute="top" secondItem="Sm1-5S-AqU" secondAttribute="bottom" constant="20" id="Tpt-xh-reJ"/>
+                            <constraint firstItem="3rg-LO-X99" firstAttribute="top" secondItem="edY-bT-ojf" secondAttribute="bottom" constant="20" id="dkX-ey-hKW"/>
+                            <constraint firstItem="VrL-w8-Nc0" firstAttribute="top" secondItem="3rg-LO-X99" secondAttribute="bottom" constant="20" id="fJd-L4-s7L"/>
+                            <constraint firstItem="VrL-w8-Nc0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="l9b-1U-o5j"/>
+                            <constraint firstItem="Sm1-5S-AqU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pqO-ad-S6G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VrL-w8-Nc0" secondAttribute="bottom" id="xlt-a7-8DC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="degreeHigh" destination="fLR-Di-puY" id="GsV-uX-oq0"/>
+                        <outlet property="degreeLow" destination="kbV-AY-GhV" id="cdJ-y8-7ns"/>
+                        <outlet property="degreeNow" destination="o5D-w1-tlI" id="8nT-Ex-wIK"/>
+                        <outlet property="lati" destination="xJy-OS-Xr3" id="5wo-Ch-AMH"/>
+                        <outlet property="long" destination="WSQ-zY-zZ0" id="Yyc-Kc-NaM"/>
+                        <outlet property="pos" destination="VnR-Rp-YgM" id="NuM-St-Uhd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.74045801526717" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
