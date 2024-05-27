@@ -53,7 +53,8 @@ struct ContentView: View {
             } // 상단 뷰
             .padding(10)
             .padding(.bottom, 10)
-            .background(.black)
+            .background(.red)
+        
             
             ScrollView {
                 VStack(spacing: 12) {
