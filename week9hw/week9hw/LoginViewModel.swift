@@ -4,7 +4,7 @@ import SwiftUI
 class LoginViewModel: ObservableObject {
     @Published var loginID: String = ""
     @Published var loginPW: String = ""
-    
+    //키체인 이용한 로그인 구현
     let keychain = KeychainSwift()
     
     func admitAccount() {
