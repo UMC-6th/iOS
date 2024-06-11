@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3D7F94F2C18200500D35566 /* Week10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F94E2C18200500D35566 /* Week10App.swift */; };
+		E3D7F9512C18200500D35566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9502C18200500D35566 /* ContentView.swift */; };
+		E3D7F9532C18200600D35566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D7F9522C18200600D35566 /* Assets.xcassets */; };
+		E3D7F9562C18200600D35566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D7F9552C18200600D35566 /* Preview Assets.xcassets */; };
+		E3D7F9602C18200600D35566 /* Week10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F95F2C18200600D35566 /* Week10Tests.swift */; };
+		E3D7F96A2C18200600D35566 /* Week10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9692C18200600D35566 /* Week10UITests.swift */; };
+		E3D7F96C2C18200600D35566 /* Week10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F96B2C18200600D35566 /* Week10UITestsLaunchTests.swift */; };
+		E3D7F97A2C18228C00D35566 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9792C18228C00D35566 /* KakaoSDK */; };
+		E3D7F97C2C18228C00D35566 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F97B2C18228C00D35566 /* KakaoSDKAuth */; };
+		E3D7F97E2C18228C00D35566 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F97D2C18228C00D35566 /* KakaoSDKCert */; };
+		E3D7F9802C18228C00D35566 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F97F2C18228C00D35566 /* KakaoSDKCertCore */; };
+		E3D7F9822C18228C00D35566 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9812C18228C00D35566 /* KakaoSDKCommon */; };
+		E3D7F9842C18228C00D35566 /* KakaoSDKFriend in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9832C18228C00D35566 /* KakaoSDKFriend */; };
+		E3D7F9862C18228C00D35566 /* KakaoSDKFriendCore in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9852C18228C00D35566 /* KakaoSDKFriendCore */; };
+		E3D7F9882C18228C00D35566 /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9872C18228C00D35566 /* KakaoSDKNavi */; };
+		E3D7F98A2C18228C00D35566 /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F9892C18228C00D35566 /* KakaoSDKShare */; };
+		E3D7F98C2C18228C00D35566 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F98B2C18228C00D35566 /* KakaoSDKTalk */; };
+		E3D7F98E2C18228C00D35566 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F98D2C18228C00D35566 /* KakaoSDKTemplate */; };
+		E3D7F9902C18228C00D35566 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = E3D7F98F2C18228C00D35566 /* KakaoSDKUser */; };
+		E3D7F9942C1827D500D35566 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */; };
+		E3D7F9962C18291800D35566 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9952C18291800D35566 /* MySceneDelegate.swift */; };
+		E3D7F9982C182BA700D35566 /* kakaoAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */; };
+		E3D7F99A2C1834BE00D35566 /* ApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9992C1834BE00D35566 /* ApiView.swift */; };
+		E3D7F99E2C18358700D35566 /* ApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F99D2C18358700D35566 /* ApiViewModel.swift */; };
+		E3D7F9A12C18360000D35566 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9A02C18360000D35566 /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3D7F95C2C18200600D35566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D7F9432C18200500D35566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D7F94A2C18200500D35566;
+			remoteInfo = Week10;
+		};
+		E3D7F9662C18200600D35566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3D7F9432C18200500D35566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D7F94A2C18200500D35566;
+			remoteInfo = Week10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3D7F94B2C18200500D35566 /* Week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D7F94E2C18200500D35566 /* Week10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week10App.swift; sourceTree = "<group>"; };
+		E3D7F9502C18200500D35566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3D7F9522C18200600D35566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D7F9552C18200600D35566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3D7F95B2C18200600D35566 /* Week10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D7F95F2C18200600D35566 /* Week10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week10Tests.swift; sourceTree = "<group>"; };
+		E3D7F9652C18200600D35566 /* Week10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D7F9692C18200600D35566 /* Week10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week10UITests.swift; sourceTree = "<group>"; };
+		E3D7F96B2C18200600D35566 /* Week10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3D7F9912C1822C600D35566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E3D7F9922C1823A400D35566 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		E3D7F9952C18291800D35566 /* MySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
+		E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAuthViewModel.swift; sourceTree = "<group>"; };
+		E3D7F9992C1834BE00D35566 /* ApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiView.swift; sourceTree = "<group>"; };
+		E3D7F99D2C18358700D35566 /* ApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewModel.swift; sourceTree = "<group>"; };
+		E3D7F9A02C18360000D35566 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3D7F9482C18200500D35566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7F9862C18228C00D35566 /* KakaoSDKFriendCore in Frameworks */,
+				E3D7F9802C18228C00D35566 /* KakaoSDKCertCore in Frameworks */,
+				E3D7F97E2C18228C00D35566 /* KakaoSDKCert in Frameworks */,
+				E3D7F98E2C18228C00D35566 /* KakaoSDKTemplate in Frameworks */,
+				E3D7F9882C18228C00D35566 /* KakaoSDKNavi in Frameworks */,
+				E3D7F97A2C18228C00D35566 /* KakaoSDK in Frameworks */,
+				E3D7F9822C18228C00D35566 /* KakaoSDKCommon in Frameworks */,
+				E3D7F97C2C18228C00D35566 /* KakaoSDKAuth in Frameworks */,
+				E3D7F9902C18228C00D35566 /* KakaoSDKUser in Frameworks */,
+				E3D7F98C2C18228C00D35566 /* KakaoSDKTalk in Frameworks */,
+				E3D7F9842C18228C00D35566 /* KakaoSDKFriend in Frameworks */,
+				E3D7F98A2C18228C00D35566 /* KakaoSDKShare in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9582C18200600D35566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9622C18200600D35566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3D7F9422C18200500D35566 = {
+			isa = PBXGroup;
+			children = (
+				E3D7F94D2C18200500D35566 /* Week10 */,
+				E3D7F95E2C18200600D35566 /* Week10Tests */,
+				E3D7F9682C18200600D35566 /* Week10UITests */,
+				E3D7F94C2C18200500D35566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D7F94C2C18200500D35566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F94B2C18200500D35566 /* Week10.app */,
+				E3D7F95B2C18200600D35566 /* Week10Tests.xctest */,
+				E3D7F9652C18200600D35566 /* Week10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D7F94D2C18200500D35566 /* Week10 */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9912C1822C600D35566 /* Info.plist */,
+				E3D7F94E2C18200500D35566 /* Week10App.swift */,
+				E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */,
+				E3D7F9952C18291800D35566 /* MySceneDelegate.swift */,
+				E3D7F99F2C1835EC00D35566 /* Models */,
+				E3D7F99C2C18355800D35566 /* Views */,
+				E3D7F99B2C18355100D35566 /* ViewModels */,
+				E3D7F9522C18200600D35566 /* Assets.xcassets */,
+				E3D7F9542C18200600D35566 /* Preview Content */,
+				E3D7F9922C1823A400D35566 /* Config.xcconfig */,
+			);
+			path = Week10;
+			sourceTree = "<group>";
+		};
+		E3D7F9542C18200600D35566 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9552C18200600D35566 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3D7F95E2C18200600D35566 /* Week10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F95F2C18200600D35566 /* Week10Tests.swift */,
+			);
+			path = Week10Tests;
+			sourceTree = "<group>";
+		};
+		E3D7F9682C18200600D35566 /* Week10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9692C18200600D35566 /* Week10UITests.swift */,
+				E3D7F96B2C18200600D35566 /* Week10UITestsLaunchTests.swift */,
+			);
+			path = Week10UITests;
+			sourceTree = "<group>";
+		};
+		E3D7F99B2C18355100D35566 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */,
+				E3D7F99D2C18358700D35566 /* ApiViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E3D7F99C2C18355800D35566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9992C1834BE00D35566 /* ApiView.swift */,
+				E3D7F9502C18200500D35566 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3D7F99F2C1835EC00D35566 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9A02C18360000D35566 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3D7F94A2C18200500D35566 /* Week10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D7F96F2C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10" */;
+			buildPhases = (
+				E3D7F9472C18200500D35566 /* Sources */,
+				E3D7F9482C18200500D35566 /* Frameworks */,
+				E3D7F9492C18200500D35566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week10;
+			packageProductDependencies = (
+				E3D7F9792C18228C00D35566 /* KakaoSDK */,
+				E3D7F97B2C18228C00D35566 /* KakaoSDKAuth */,
+				E3D7F97D2C18228C00D35566 /* KakaoSDKCert */,
+				E3D7F97F2C18228C00D35566 /* KakaoSDKCertCore */,
+				E3D7F9812C18228C00D35566 /* KakaoSDKCommon */,
+				E3D7F9832C18228C00D35566 /* KakaoSDKFriend */,
+				E3D7F9852C18228C00D35566 /* KakaoSDKFriendCore */,
+				E3D7F9872C18228C00D35566 /* KakaoSDKNavi */,
+				E3D7F9892C18228C00D35566 /* KakaoSDKShare */,
+				E3D7F98B2C18228C00D35566 /* KakaoSDKTalk */,
+				E3D7F98D2C18228C00D35566 /* KakaoSDKTemplate */,
+				E3D7F98F2C18228C00D35566 /* KakaoSDKUser */,
+			);
+			productName = Week10;
+			productReference = E3D7F94B2C18200500D35566 /* Week10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3D7F95A2C18200600D35566 /* Week10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D7F9722C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10Tests" */;
+			buildPhases = (
+				E3D7F9572C18200600D35566 /* Sources */,
+				E3D7F9582C18200600D35566 /* Frameworks */,
+				E3D7F9592C18200600D35566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D7F95D2C18200600D35566 /* PBXTargetDependency */,
+			);
+			name = Week10Tests;
+			productName = Week10Tests;
+			productReference = E3D7F95B2C18200600D35566 /* Week10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3D7F9642C18200600D35566 /* Week10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D7F9752C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10UITests" */;
+			buildPhases = (
+				E3D7F9612C18200600D35566 /* Sources */,
+				E3D7F9622C18200600D35566 /* Frameworks */,
+				E3D7F9632C18200600D35566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D7F9672C18200600D35566 /* PBXTargetDependency */,
+			);
+			name = Week10UITests;
+			productName = Week10UITests;
+			productReference = E3D7F9652C18200600D35566 /* Week10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3D7F9432C18200500D35566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E3D7F94A2C18200500D35566 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E3D7F95A2C18200600D35566 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3D7F94A2C18200500D35566;
+					};
+					E3D7F9642C18200600D35566 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3D7F94A2C18200500D35566;
+					};
+				};
+			};
+			buildConfigurationList = E3D7F9462C18200500D35566 /* Build configuration list for PBXProject "Week10" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3D7F9422C18200500D35566;
+			packageReferences = (
+				E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = E3D7F94C2C18200500D35566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3D7F94A2C18200500D35566 /* Week10 */,
+				E3D7F95A2C18200600D35566 /* Week10Tests */,
+				E3D7F9642C18200600D35566 /* Week10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3D7F9492C18200500D35566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7F9562C18200600D35566 /* Preview Assets.xcassets in Resources */,
+				E3D7F9532C18200600D35566 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9592C18200600D35566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9632C18200600D35566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3D7F9472C18200500D35566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7F99E2C18358700D35566 /* ApiViewModel.swift in Sources */,
+				E3D7F9512C18200500D35566 /* ContentView.swift in Sources */,
+				E3D7F9942C1827D500D35566 /* MyAppDelegate.swift in Sources */,
+				E3D7F9982C182BA700D35566 /* kakaoAuthViewModel.swift in Sources */,
+				E3D7F94F2C18200500D35566 /* Week10App.swift in Sources */,
+				E3D7F9962C18291800D35566 /* MySceneDelegate.swift in Sources */,
+				E3D7F9A12C18360000D35566 /* Movie.swift in Sources */,
+				E3D7F99A2C1834BE00D35566 /* ApiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9572C18200600D35566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7F9602C18200600D35566 /* Week10Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7F9612C18200600D35566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7F96A2C18200600D35566 /* Week10UITests.swift in Sources */,
+				E3D7F96C2C18200600D35566 /* Week10UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3D7F95D2C18200600D35566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D7F94A2C18200500D35566 /* Week10 */;
+			targetProxy = E3D7F95C2C18200600D35566 /* PBXContainerItemProxy */;
+		};
+		E3D7F9672C18200600D35566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3D7F94A2C18200500D35566 /* Week10 */;
+			targetProxy = E3D7F9662C18200600D35566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3D7F96D2C18200600D35566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3D7F96E2C18200600D35566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3D7F9702C18200600D35566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Week10/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3D7F9712C18200600D35566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Week10/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3D7F9732C18200600D35566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week10";
+			};
+			name = Debug;
+		};
+		E3D7F9742C18200600D35566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week10";
+			};
+			name = Release;
+		};
+		E3D7F9762C18200600D35566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Week10;
+			};
+			name = Debug;
+		};
+		E3D7F9772C18200600D35566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7F9922C1823A400D35566 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = won.Week10UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Week10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3D7F9462C18200500D35566 /* Build configuration list for PBXProject "Week10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7F96D2C18200600D35566 /* Debug */,
+				E3D7F96E2C18200600D35566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D7F96F2C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7F9702C18200600D35566 /* Debug */,
+				E3D7F9712C18200600D35566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D7F9722C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7F9732C18200600D35566 /* Debug */,
+				E3D7F9742C18200600D35566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D7F9752C18200600D35566 /* Build configuration list for PBXNativeTarget "Week10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7F9762C18200600D35566 /* Debug */,
+				E3D7F9772C18200600D35566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3D7F9792C18228C00D35566 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		E3D7F97B2C18228C00D35566 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		E3D7F97D2C18228C00D35566 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		E3D7F97F2C18228C00D35566 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		E3D7F9812C18228C00D35566 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		E3D7F9832C18228C00D35566 /* KakaoSDKFriend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriend;
+		};
+		E3D7F9852C18228C00D35566 /* KakaoSDKFriendCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriendCore;
+		};
+		E3D7F9872C18228C00D35566 /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		E3D7F9892C18228C00D35566 /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		E3D7F98B2C18228C00D35566 /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		E3D7F98D2C18228C00D35566 /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		E3D7F98F2C18228C00D35566 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3D7F9782C18228C00D35566 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E3D7F9432C18200500D35566 /* Project object */;
+}
