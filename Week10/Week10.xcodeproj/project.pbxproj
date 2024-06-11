@@ -29,6 +29,9 @@
 		E3D7F9942C1827D500D35566 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */; };
 		E3D7F9962C18291800D35566 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9952C18291800D35566 /* MySceneDelegate.swift */; };
 		E3D7F9982C182BA700D35566 /* kakaoAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */; };
+		E3D7F99A2C1834BE00D35566 /* ApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9992C1834BE00D35566 /* ApiView.swift */; };
+		E3D7F99E2C18358700D35566 /* ApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F99D2C18358700D35566 /* ApiViewModel.swift */; };
+		E3D7F9A12C18360000D35566 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D7F9A02C18360000D35566 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
 		E3D7F9952C18291800D35566 /* MySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
 		E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoAuthViewModel.swift; sourceTree = "<group>"; };
+		E3D7F9992C1834BE00D35566 /* ApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiView.swift; sourceTree = "<group>"; };
+		E3D7F99D2C18358700D35566 /* ApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewModel.swift; sourceTree = "<group>"; };
+		E3D7F9A02C18360000D35566 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +136,9 @@
 				E3D7F94E2C18200500D35566 /* Week10App.swift */,
 				E3D7F9932C1827D500D35566 /* MyAppDelegate.swift */,
 				E3D7F9952C18291800D35566 /* MySceneDelegate.swift */,
-				E3D7F9502C18200500D35566 /* ContentView.swift */,
-				E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */,
+				E3D7F99F2C1835EC00D35566 /* Models */,
+				E3D7F99C2C18355800D35566 /* Views */,
+				E3D7F99B2C18355100D35566 /* ViewModels */,
 				E3D7F9522C18200600D35566 /* Assets.xcassets */,
 				E3D7F9542C18200600D35566 /* Preview Content */,
 				E3D7F9922C1823A400D35566 /* Config.xcconfig */,
@@ -162,6 +169,32 @@
 				E3D7F96B2C18200600D35566 /* Week10UITestsLaunchTests.swift */,
 			);
 			path = Week10UITests;
+			sourceTree = "<group>";
+		};
+		E3D7F99B2C18355100D35566 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9972C182BA700D35566 /* kakaoAuthViewModel.swift */,
+				E3D7F99D2C18358700D35566 /* ApiViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E3D7F99C2C18355800D35566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9992C1834BE00D35566 /* ApiView.swift */,
+				E3D7F9502C18200500D35566 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3D7F99F2C1835EC00D35566 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7F9A02C18360000D35566 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,11 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D7F99E2C18358700D35566 /* ApiViewModel.swift in Sources */,
 				E3D7F9512C18200500D35566 /* ContentView.swift in Sources */,
 				E3D7F9942C1827D500D35566 /* MyAppDelegate.swift in Sources */,
 				E3D7F9982C182BA700D35566 /* kakaoAuthViewModel.swift in Sources */,
 				E3D7F94F2C18200500D35566 /* Week10App.swift in Sources */,
 				E3D7F9962C18291800D35566 /* MySceneDelegate.swift in Sources */,
+				E3D7F9A12C18360000D35566 /* Movie.swift in Sources */,
+				E3D7F99A2C1834BE00D35566 /* ApiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

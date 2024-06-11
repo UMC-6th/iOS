@@ -2,34 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>KAKAO_NATIVE_APP_KEY</key>
-	<string>${KAKAO_NATIVE_APP_KEY}</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>kakao${KAKAO_NATIVE_APP_KEY}</string>
-			</array>
-		</dict>
-	</array>
-	<key>UIBackgroundModes</key>
-	<array/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-	</dict>
+    <key>KAKAO_NATIVE_APP_KEY</key>
+    <string>${KAKAO_NATIVE_APP_KEY}</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>kakao${KAKAO_NATIVE_APP_KEY}</string>
+            </array>
+        </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>kobis.or.kr</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
     <key>LSApplicationQueriesSchemes</key>
-      <array>
-          <!-- 카카오톡으로 로그인 -->
-          <string>kakaokompassauth</string>
-          <!-- 카카오톡 공유 -->
-          <string>kakaolink</string>
-          <!-- 카카오톡 채널 -->
-          <string>kakaoplus</string>
-      </array>
+    <array>
+        <string>kakaokompassauth</string>
+        <string>kakaolink</string>
+        <string>kakaoplus</string>
+    </array>
 </dict>
 </plist>
