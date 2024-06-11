@@ -12,7 +12,7 @@ struct ContentView: View {
     @StateObject var kakaoAuthVM = kakaoAuthViewModel()
     
     let loginStatusInfo : (Bool) -> String = { isLoggedIn in
-        return isLoggedIn ? "로그인 상태" : "로그아웃 상태"
+        return isLoggedIn ? "로그인 상태 ⭐️" : "로그아웃 상태"
     }
     
     var body: some View {
@@ -25,6 +25,7 @@ struct ContentView: View {
                 Button("카카오톡 로그아웃", action: {
                     kakaoAuthVM.kakaoLogout()
                 })
+                Divider()
                 NavigationLink(destination: ApiView()) {
                     Text("Api 사용")
                 }

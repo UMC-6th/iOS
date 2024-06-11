@@ -7,21 +7,27 @@
 
 import Foundation
 
-struct Movie {
-    static var movieId: Int = 0   // 아이디가 하나씩 부여되도록 만듦
+struct Movie: Identifiable, Hashable {
+    let id: Int
     let movieName: String
     let rank: Int
     let openDate: String
     let todayAudience: Int
     let totalAudience: Int
-    
+
+    static var movieIdCounter = 0
+
     init(movieNm: String, rank: String, openDate: String, audiCnt: String, accAudi: String) {
+        self.id = Movie.movieIdCounter
         self.movieName = movieNm
-        self.rank = Int(rank)!
+        self.rank = Int(rank) ?? 0
         self.openDate = openDate
-        self.todayAudience = Int(audiCnt)!
-        self.totalAudience = Int(accAudi)!
-        Movie.movieId += 1
+        self.todayAudience = Int(audiCnt) ?? 0
+        self.totalAudience = Int(accAudi) ?? 0
+        Movie.movieIdCounter += 1
     }
-    
+
+    static func resetMovieIdCounter() {
+        Movie.movieIdCounter = 0
+    }
 }

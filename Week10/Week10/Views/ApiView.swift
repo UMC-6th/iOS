@@ -28,17 +28,33 @@ struct ApiView: View {
                         downloadedMovies = movies
                         dump(movies)
                         
-                        print("전체 영화 갯수 확인: \(Movie.movieId)")
+                        print("전체 영화 갯수 확인: \(movies.count)")
                     } else {
                         print("영화데이터가 없습니다. 또는 다운로드에 실패했습니다.")
                     }
                 }
             })
+            
+            Divider()
+            
+            List(downloadedMovies) { movie in
+                VStack(alignment: .leading) {
+                    Text(movie.movieName)
+                        .font(.headline)
+                    Text("영화 순위: \(movie.rank)")
+                    Text("개봉일: \(movie.openDate)")
+//                    Text("해당 날짜 관객수: \(movie.todayAudience)")
+                    Text("총 관객수: \(movie.totalAudience)")
+                }
+                .padding()
+            }
+            
+            Spacer()
         }
         .padding()
     }
 }
 
-//#Preview {
-//    ApiView(, text: "hello")
-//}
+#Preview {
+    ApiView(text: "20240610")
+}
